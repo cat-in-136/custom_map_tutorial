@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 2.2.1.2648
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSlicerForCustomMap", "ImageSlicerForCustomMap.csproj", "{DFDC877D-2942-45F0-BFDE-82EB698C676D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB8B980C-F6BF-4AC1-98EF-983E7735FC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8B980C-F6BF-4AC1-98EF-983E7735FC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8B980C-F6BF-4AC1-98EF-983E7735FC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8B980C-F6BF-4AC1-98EF-983E7735FC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDC877D-2942-45F0-BFDE-82EB698C676D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDC877D-2942-45F0-BFDE-82EB698C676D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDC877D-2942-45F0-BFDE-82EB698C676D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDC877D-2942-45F0-BFDE-82EB698C676D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
