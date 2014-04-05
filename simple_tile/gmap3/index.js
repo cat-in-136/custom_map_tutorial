@@ -14,17 +14,10 @@ google.maps.event.addDomListener(window, "load", function () {
     getTileUrl: function(coordinate, zoom) {
       var x = coordinate.x >> 0;
       var y = coordinate.y >> 0;
-      var xrange = [0, 3];
-      var yrange = [0, 7];
 
-      if ((xrange[0] <= x) && (x <= xrange[1])
-       && (yrange[0] <= y) && (y <= yrange[1])) {
-        return "../tile/custom_map_tile_%y_%x.png"
-         .replace("%x", x.toString())
-         .replace("%y", y.toString());
-      } else {
-        return undefined;
-      }
+      return "../tile/custom_map_tile_%y_%x.png"
+       .replace("%x", x.toString())
+       .replace("%y", y.toString());
     }
   });
   var map = new google.maps.Map(oMapCanvas, {
